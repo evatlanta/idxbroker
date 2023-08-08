@@ -14,8 +14,8 @@ function getStyles(host) {
   let link = document.createElement('link');
   link.rel = 'stylesheet';
   link.type = 'text/css';
-  //link.href = referrer+'assets/styles/idxbroker.css';
-  link.href = 'https://owntheharman.com/assets/styles/idxbroker.css';
+  link.href = referrer+'assets/styles/idxbroker.css';
+  //link.href = 'https://owntheharman.com/assets/styles/idxbroker.css';
   if(host !== "evatlanta.idxbroker.com") head.appendChild(link);
 }
 getStyles(referrer.hostname);
