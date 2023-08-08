@@ -1,3 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - IDX Broker Styling</title>
+</head>
+
+<body>
+<script id="rendered-js" >
 var referrer = new URL(document.referrer);
 function getStyles(host) {
   let head = document.getElementsByTagName('HEAD')[0];
@@ -8,3 +18,6 @@ function getStyles(host) {
   if(host !== "evatlanta.idxbroker.com") head.appendChild(link);
 }
 getStyles(referrer.hostname);
+</script>
+</body>
+</html>
